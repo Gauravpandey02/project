@@ -1,0 +1,15 @@
+.data-log {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px var(--shadow);
+}
+.data-log table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.data-log th, .data-log td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}

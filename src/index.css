@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: 0.3s;
+}
+h1, h2, h3 {
+  margin: 0.3em 0;
+}

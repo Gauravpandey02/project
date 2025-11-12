@@ -1,0 +1,24 @@
+:root {
+  --bg: #f6f8fa;
+  --text: #222;
+  --card: #fff;
+  --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body.dark {
+  --bg: #121212;
+  --text: #f1f1f1;
+  --card: #1e1e1e;
+  --shadow: rgba(255, 255, 255, 0.1);
+}
+
+.app {
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: 0.4s;
+}
+
+main {
+  padding: 1rem 2rem;
+}
